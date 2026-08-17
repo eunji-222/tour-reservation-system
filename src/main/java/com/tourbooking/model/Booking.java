@@ -15,8 +15,36 @@ public class Booking {
         this.participants = participants;
         this.price = price;
 
-
     }
+
+    public int getBookingNumber() {
+        return bookingNumber;
+    }
+
+    public String getBookingName() {
+        return bookingName;
+    }
+
+    public String getTourName() {
+        return tourName;
+    }
+
+    public TourType getTourType() {
+        return tourType;
+    }
+
+    public int getParticipants() {
+        return participants;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setBookingNumber(int bookingNumber){
+        this.bookingNumber = bookingNumber;
+    }
+
 
 }
 
