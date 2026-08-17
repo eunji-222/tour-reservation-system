@@ -8,3 +8,6 @@
 ## STEP 7 확장 후보
 1. Tour 모델 분리 (투어 상품 관리 + 예약과 연결)
 2. 투어 시행일 (LocalDate) — STEP 1에서 미뤄둔 것
+
+## List vs ArrayList 이유 알아보기
+
