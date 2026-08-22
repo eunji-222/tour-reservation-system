@@ -16,9 +16,23 @@ public class BookingRepository {
         bookings.add(booking);                          // bookings에 넣음
         return booking;                                 // 번호 찍힌 객체(예약카드) 돌려줌
 
-
     }
 
+    public List<Booking> findAll() {
+        return bookings;
+
+    }
+    public Booking findByNumber(int number) {
+        for (Booking booking : bookings) {
+            if (booking.getBookingNumber() == number) {
+                return booking;
+            }
+        }
+        return null;
+
+
+
+    }
 
 }
 
